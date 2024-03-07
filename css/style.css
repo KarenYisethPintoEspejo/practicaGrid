@@ -50,7 +50,7 @@ body{
     object-fit: contain;
 }
 
-.text{
+.texto{
     color: var(--color-price);
 }
 
@@ -93,9 +93,21 @@ body{
 }
 
 .item3{
-    /* background: violet; */
-    grid-row: 3 / 5;
-    grid-column: 1 / 3;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    flex-direction: column;
+    grid-area: MacBook_Air_Screen;
+}
+
+.item3 img{
+    width: 100%;
+    height: 38vh;
+    object-fit: contain;
+}
+
+.texto3{
+    font-size: 1.3rem;
 }
 
 .item4{
