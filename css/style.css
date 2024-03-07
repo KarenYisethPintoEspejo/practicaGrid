@@ -74,9 +74,22 @@ body{
     object-fit: contain;
 }
 .item2{
-    /* background: blue; */
-    grid-row: 1 / 3 ;
-    grid-column: 2 / 4;
+    grid-area: MacBook_Pro_App;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.item2 img{
+    width: 100%;
+    height: 38vh;
+    object-fit: contain;
+}
+
+.texto2{
+    width: 30%;
+    font-size: 1.5rem;
 }
 
 .item3{
