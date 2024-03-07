@@ -123,3 +123,14 @@ body{
     height: 26vh;
     object-fit: contain;
 }
+
+@media (width < 800px){
+    .container{
+        width: 100%;
+        grid-template-areas:
+        "MacBook_Air MacBook_Air MacBook_Air"
+        "MacBook_Pro_App MacBook_Pro_App MacBook_Pro_App"
+        "MacBook_Air_Screen MacBook_Air_Screen MacBook_Air_Screen"
+        "MacBook_Air_Screen_Pro MacBook_Air_Screen_Pro MacBook_Air_Screen_Pro";
+    }
+}
