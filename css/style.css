@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -22,11 +22,17 @@ body{
     /* box-shadow: 3px 3px 5px var(--color-transparecia); */
     margin: 15px auto;
     grid-gap: 8px;
+    grid-template-areas: 
+    "MacBook_Air MacBook_Pro_App MacBook_Pro_App"
+    "MacBook_Air MacBook_Pro_App MacBook_Pro_App"
+    "MacBook_Air_Screen MacBook_Air_Screen MacBook_Air_Screen_Pro"
+    "MacBook_Air_Screen MacBook_Air_Screen MacBook_Air_Screen_Pro";
 }
 
 .container div{
     background: var(--color-secundary);
-    border-radius: 10px;
+    border-radius: 1px solid var(--color-secundary) ;
+    border-radius: 5px;
 }
 
 .item1{
